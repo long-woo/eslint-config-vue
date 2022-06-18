@@ -7,20 +7,20 @@
 1.安装依赖
 
 ```sh
-pnpm add -D eslint @longwoo/eslint-config-typescript-prettier
+pnpm add -D eslint @longwoo/eslint-config-vue
 
 # or
-yarn add -D eslint @longwoo/eslint-config-typescript-prettier
+yarn add -D eslint @longwoo/eslint-config-vue
 
 # or
-npm install --save-dev @longwoo/eslint-config-typescript-prettier
+npm install --save-dev @longwoo/eslint-config-vue
 ```
 
 2.配置 ESLint
 
 ```json
 {
-  "extends": "@longwoo/eslint-config-typescript-prettier"
+  "extends": "@longwoo/eslint-config-vue"
 }
 ```
 
@@ -29,7 +29,7 @@ npm install --save-dev @longwoo/eslint-config-typescript-prettier
 ```json
 {
   "scripts": {
-    "eslint": "eslint --ext .js,.ts,.tsx src"
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   }
 }
 ```
