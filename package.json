@@ -1,14 +1,21 @@
 {
   "name": "@longwoo/eslint-config-vue",
   "version": "1.0.0",
-  "description": "Vue eslint 配置",
+  "description": "一个 Vue 的 ESLint 配置，使用 Prettier 格式化代码。",
   "main": "index.js",
   "keywords": [
     "eslint",
     "eslint-config",
     "eslint-config-vue"
   ],
-  "author": "long.woo",
+  "author": {
+    "name": "long.woo",
+    "email": "longwunet@outlook.com"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "license": "ISC",
   "dependencies": {
     "@vue/eslint-config-prettier": "^7.0.0",
