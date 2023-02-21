@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@vue/eslint-config-prettier': ^7.0.0
-  '@vue/eslint-config-typescript': ^10.0.0
+  '@vue/eslint-config-typescript': ^11.0.0
   eslint: ^8.27.0
   eslint-plugin-vue: ^9.0.0
   prettier: ^2.7.1
@@ -10,7 +10,7 @@ specifiers:
 
 dependencies:
   '@vue/eslint-config-prettier': 7.0.0_mbd4zptqpjbepwpyh2zbtslqey
-  '@vue/eslint-config-typescript': 10.0.0_v5ayjcvsfhlmcr7r7k7kr2auu4
+  '@vue/eslint-config-typescript': 11.0.2_v5ayjcvsfhlmcr7r7k7kr2auu4
   eslint-plugin-vue: 9.9.0_eslint@8.27.0
 
 devDependencies:
@@ -220,12 +220,12 @@ packages:
       prettier: 2.7.1
     dev: false
 
-  /@vue/eslint-config-typescript/10.0.0_v5ayjcvsfhlmcr7r7k7kr2auu4:
-    resolution: {integrity: sha512-F94cL8ug3FaYXlCfU5/wiGjk1qeadmoBpRGAOBq+qre3Smdupa59dd6ZJrsfRODpsMPyTG7330juMDsUvpZ3Rw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+  /@vue/eslint-config-typescript/11.0.2_v5ayjcvsfhlmcr7r7k7kr2auu4:
+    resolution: {integrity: sha512-EiKud1NqlWmSapBFkeSrE994qpKx7/27uCGnhdqzllYDpQZroyX/O6bwjEpeuyKamvLbsGdO6PMR2faIf+zFnw==}
+    engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
-      eslint-plugin-vue: ^8.0.1
+      eslint-plugin-vue: ^9.0.0
       typescript: '*'
     peerDependenciesMeta:
       typescript:
@@ -236,7 +236,7 @@ packages:
       eslint: 8.27.0
       eslint-plugin-vue: 9.9.0_eslint@8.27.0
       typescript: 4.8.4
-      vue-eslint-parser: 8.3.0_eslint@8.27.0
+      vue-eslint-parser: 9.1.0_eslint@8.27.0
     transitivePeerDependencies:
       - supports-color
     dev: false
@@ -950,24 +950,6 @@ packages:
 
   /util-deprecate/1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
-    dev: false
-
-  /vue-eslint-parser/8.3.0_eslint@8.27.0:
-    resolution: {integrity: sha512-dzHGG3+sYwSf6zFBa0Gi9ZDshD7+ad14DGOdTLjruRVgZXe2J+DcZ9iUhyR48z5g1PqRa20yt3Njna/veLJL/g==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-    peerDependencies:
-      eslint: '>=6.0.0'
-    dependencies:
-      debug: 4.3.4
-      eslint: 8.27.0
-      eslint-scope: 7.1.1
-      eslint-visitor-keys: 3.3.0
-      espree: 9.4.1
-      esquery: 1.4.0
-      lodash: 4.17.21
-      semver: 7.3.8
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /vue-eslint-parser/9.1.0_eslint@8.27.0:
