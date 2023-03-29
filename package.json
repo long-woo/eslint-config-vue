@@ -1,6 +1,6 @@
 {
-  "name": "@longwoo/eslint-config-vue",
-  "version": "1.0.1",
+  "name": "@loongwoo/eslint-config-vue",
+  "version": "1.1.0",
   "description": "一个 Vue 的 ESLint 配置，使用 Prettier 格式化代码。",
   "main": "index.js",
   "keywords": [
@@ -9,7 +9,7 @@
     "eslint-config-vue"
   ],
   "author": {
-    "name": "long.woo",
+    "name": "loong.woo",
     "email": "longwunet@outlook.com"
   },
   "publishConfig": {
