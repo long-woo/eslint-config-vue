@@ -5,17 +5,17 @@ specifiers:
   '@vue/eslint-config-typescript': ^11.0.0
   eslint: ^8.27.0
   eslint-plugin-vue: ^9.0.0
-  prettier: ^2.7.1
+  prettier: ^3.0.0
   typescript: ^4.8.4
 
 dependencies:
-  '@vue/eslint-config-prettier': 7.0.0_mbd4zptqpjbepwpyh2zbtslqey
+  '@vue/eslint-config-prettier': 7.0.0_fltedxscriypgmfdwxdum7jpoy
   '@vue/eslint-config-typescript': 11.0.2_v5ayjcvsfhlmcr7r7k7kr2auu4
   eslint-plugin-vue: 9.9.0_eslint@8.27.0
 
 devDependencies:
   eslint: 8.27.0
-  prettier: 2.7.1
+  prettier: 3.0.0
   typescript: 4.8.4
 
 packages:
@@ -208,7 +208,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: false
 
-  /@vue/eslint-config-prettier/7.0.0_mbd4zptqpjbepwpyh2zbtslqey:
+  /@vue/eslint-config-prettier/7.0.0_fltedxscriypgmfdwxdum7jpoy:
     resolution: {integrity: sha512-/CTc6ML3Wta1tCe1gUeO0EYnVXfo3nJXsIhZ8WJr3sov+cGASr6yuiibJTL6lmIBm7GobopToOuB3B6AWyV0Iw==}
     peerDependencies:
       eslint: '>= 7.28.0'
@@ -216,8 +216,8 @@ packages:
     dependencies:
       eslint: 8.27.0
       eslint-config-prettier: 8.5.0_eslint@8.27.0
-      eslint-plugin-prettier: 4.2.1_v7o5sx5x3wbs57ifz6wc4f76we
-      prettier: 2.7.1
+      eslint-plugin-prettier: 4.2.1_6hyz3izvovl2pxari7iuu3ozui
+      prettier: 3.0.0
     dev: false
 
   /@vue/eslint-config-typescript/11.0.2_v5ayjcvsfhlmcr7r7k7kr2auu4:
@@ -376,7 +376,7 @@ packages:
       eslint: 8.27.0
     dev: false
 
-  /eslint-plugin-prettier/4.2.1_v7o5sx5x3wbs57ifz6wc4f76we:
+  /eslint-plugin-prettier/4.2.1_6hyz3izvovl2pxari7iuu3ozui:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -389,7 +389,7 @@ packages:
     dependencies:
       eslint: 8.27.0
       eslint-config-prettier: 8.5.0_eslint@8.27.0
-      prettier: 2.7.1
+      prettier: 3.0.0
       prettier-linter-helpers: 1.0.0
     dev: false
 
@@ -830,9 +830,9 @@ packages:
       fast-diff: 1.2.0
     dev: false
 
-  /prettier/2.7.1:
-    resolution: {integrity: sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==}
-    engines: {node: '>=10.13.0'}
+  /prettier/3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
 
   /punycode/2.1.1:
