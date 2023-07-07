@@ -1,6 +1,6 @@
 {
   "name": "@loongwoo/eslint-config-vue",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "一个 Vue 的 ESLint 配置，使用 Prettier 格式化代码。",
   "main": "index.js",
   "keywords": [
@@ -18,14 +18,14 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@vue/eslint-config-prettier": "^7.0.0",
-    "@vue/eslint-config-typescript": "^11.0.0",
-    "eslint-plugin-vue": "^9.0.0"
+    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "eslint-plugin-vue": "^9.15.1"
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
+    "eslint": "^8.44.0",
     "prettier": "^3.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.1.6"
   },
   "peerDependencies": {
     "eslint": "^8.27.0",
