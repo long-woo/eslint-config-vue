@@ -18,7 +18,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@vue/eslint-config-prettier": "^7.1.0",
+    "@vue/eslint-config-prettier": "^8.0.0",
     "@vue/eslint-config-typescript": "^11.0.3",
     "eslint-plugin-vue": "^9.15.1"
   },
