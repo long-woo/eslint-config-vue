@@ -1,6 +1,6 @@
 {
   "name": "@loongwoo/eslint-config-vue",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "一个 Vue 的 ESLint 配置，使用 Prettier 格式化代码。",
   "main": "index.js",
   "keywords": [
